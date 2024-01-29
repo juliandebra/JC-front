@@ -26,7 +26,7 @@ const Context = ({ children }) => {
             unit_price: item.Precio,
             quantity: 1,
           }
-          axios.post('http://localhost:5000/order', order)
+          axios.post('https://jc-server-iahj.onrender.com/order', order)
               .then(response => {
                 console.log(response)
               })
