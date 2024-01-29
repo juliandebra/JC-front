@@ -1,0 +1,10 @@
+
+@media (min-width: 360px) and (min-height: 640px){
+    .cho-container{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 280px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
